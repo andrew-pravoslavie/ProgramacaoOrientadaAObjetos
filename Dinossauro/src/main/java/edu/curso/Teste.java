@@ -21,6 +21,7 @@ public class Teste {
                 case 'A' -> skeep.cantar();
                 case 'S' -> skeep.tomarSol();
                 case 'O' -> skeep.ficarNaSombra();
+                default -> System.out.println("Opção inválida");
             }
         }
     }
